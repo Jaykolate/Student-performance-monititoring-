@@ -48,8 +48,8 @@ def upload_daily_attendance():
             send_emails_for_daily_attendance(daily_file, date)
 
 def send_email(subject, body, to_email):
-    sender_email = "jaykolate529@gmail.com"
-    sender_password = "toxkvlwsopwbgowj"
+    sender_email = "gmailaddress "
+    sender_password = "password not themain "
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587)
         server.starttls()
